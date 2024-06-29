@@ -91,11 +91,11 @@ class _ProjectsPageState extends State<ProjectsPage> {
   Future<String> createDynamicLink(String projectId) async {
     try {
       final String businessinviteurl =
-          'https://dynamiclinkkauntabook.page.link/invite?projectId=$projectId';
+          'https://dynamiclink.page.link/invite?projectId=$projectId';
 
       final DynamicLinkParameters parameters = DynamicLinkParameters(
         link: Uri.parse(businessinviteurl),
-        uriPrefix: 'https://dynamiclinkkauntabook.page.link',
+        uriPrefix: 'https://dynamiclink.page.link',
         androidParameters: const AndroidParameters(
           packageName:
               "com.example.dynamiclinksapp", // Replace with your app's package name
